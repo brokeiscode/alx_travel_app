@@ -19,6 +19,6 @@ from django.urls import path
 from . import views
 
 #create your urls here
-urlpatterns = {
+urlpatterns = [
     path('', views.home, name='home')
-}
+]
